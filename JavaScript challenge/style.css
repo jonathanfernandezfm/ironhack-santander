@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: lightgray;
+    padding: 40px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    font-size: 36px;
+    text-align: right;
+}
+
+.numbers-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 0;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 36px;
+}
